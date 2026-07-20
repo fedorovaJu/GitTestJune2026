@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3_HTML</title>
+</head>
+<body>
+<form action="." method="post">
+    <p>
+        <label for="text">Text</label>
+        <input type="text" id="text" name="text">
+    </p>
+    <p>
+        <label for="multiple-lines">Multiple lines</label><br>
+        <textarea id="multiple-lines" rows="4" name="multipleLines"></textarea>
+    </p>
+    <p>
+        <label>
+            <input checked type="radio" name="radiobutton" value="radiobutton1"> One
+        </label>
+        <label>
+            <input type="radio" name="radiobutton" value="radiobutton2"> Two
+        </label>
+        <label>
+            <input type="radio" name="radiobutton" value="radiobutton3"> Three
+        </label>
+    </p>
+    <p>
+        <label>
+            <input type="checkbox" name="checkbox[]" value="checkbox1"> One
+        </label>
+        <label>
+            <input type="checkbox" name="checkbox[]" value="checkbox2"> Two
+        </label>
+        <label>
+            <input type="checkbox" name="checkbox[]" value="checkbox3"> Three
+        </label>
+    </p>
+    <p>
+        <label for="multiple-list">Choose option</label><br>
+        <select id="multiple-list" size="3" multiple name="multipleList[]">
+            <option value="Choice1">Choice 1</option>
+            <option value="Choice2">Choice 2</option>
+            <option value="Choice3">Choice 3</option>
+        </select>
+    </p>
+    <p>
+        <label for="list">Choose option</label><br>
+        <select id="list" size="3" name="List">
+            <option value="Choice1">Line 1</option>
+            <option value="Choice2">Line 2</option>
+            <option value="Choice3">Line 3</option>
+        </select>
+    </p>
+    <p>
+        <button type="submit">Button</button>
+    </p>
+</form>
+</body>
+</html>
