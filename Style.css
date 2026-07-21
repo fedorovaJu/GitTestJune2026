@@ -1,0 +1,16 @@
+p {
+    color:lightseagreen;
+}
+
+input[ type = radio ]:checked  {
+    border :  5px solid mediumvioletred ;
+}
+
+input[ type = checkbox ]:checked {
+    border : 3px solid darkblue;
+}
+
+body {
+    font-style: italic;
+    font-size: 25px;
+}

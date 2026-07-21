@@ -1,0 +1,19 @@
+h1 {
+    color:darkred;
+}
+.custom-table {
+    width: 100%;
+    max-width: 600px;
+    font-family: Arial, sans-serif;
+    font-size: 5px;
+}
+.custom-table td {
+    border: 2px dashed deepskyblue;
+    padding: 5px;
+    text-align: center;
+}
+.custom-table th {
+    background-color: darkseagreen;
+    font-weight: bold;
+    text-align: center;
+}
